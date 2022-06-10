@@ -1,0 +1,70 @@
+:root {
+  --color-neutral-900: #070b0d;
+  --color-neutral-600: #151a1e;
+  --color-neutral-300: #4c5257;
+  --color-neutral-100: #f4f7fa;
+  --color-heighlight-200: #86f3df;
+  --color-heighlight-300: #31c9c9;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  cursor: default;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--color-neutral-600);
+}
+
+#wrapper {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#wrapper > div {
+  height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2,
+input {
+  color: var(--color-neutral-100);
+}
+
+h1 {
+  font-size: 100px;
+  color: var(--color-heighlight-300);
+  tooltip
+}
+
+
+input {
+  font-size: larger;
+  padding: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: var(--color-neutral-300);
+  border-radius: 10px;
+  border: none;
+}
+
+input:hover,
+input:focus {
+  color: var(--color-neutral-600);
+  background-color: var(--color-heighlight-200);
+  outline: none;
+  border: none;
+}
